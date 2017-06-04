@@ -1,0 +1,13 @@
+general:
+  branches:
+    only:
+     - master
+     - development
+
+machine:
+  ruby:
+    version: 2.3.0
+
+database:
+  override:
+    - cd test/dummy && bundle exec rake db:create --trace && bundle exec rake db:migrate --trace
