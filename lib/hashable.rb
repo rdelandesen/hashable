@@ -2,7 +2,7 @@ require 'hashable/version'
 require 'hashable/active_record/base_methods'
 
 ##
-# = ShortID
+# = Hashable
 #
 # == Example
 #   class User < ActiveRecord::Base
