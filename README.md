@@ -32,7 +32,7 @@ $ bundle
 
 ```ruby
 class User < ActiveRecord::Base
-  shortable.config do |c|
+  hashable.config do |c|
     c.attr = :hash_id
     
     # Optional
