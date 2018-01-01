@@ -5,7 +5,7 @@ module Hashable
   module ActiveRecord
     module BaseMethods
       def hashable
-        include InstanceMethods unless @base
+        include InstanceMethods unless defined? @base
         @base ||= Hashable::Base.new(self)
       end
     end
