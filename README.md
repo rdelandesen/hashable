@@ -1,6 +1,8 @@
 # Hashable
 **Hashable** allows you to generate and save hash id for **[ActiveRecord models](http://guides.rubyonrails.org/active_record_basics.html)**. 
 
+[![Build Status](https://circleci.com/gh/rdelandesen/hashable.svg?&style=shield&circle-token=964ceb64f96a7d7c416c3adfc9c19c2e78470f58)](https://circleci.com/gh/rdelandesen/hashable)
+
 **For example :**
 
 | ID   | Hash ID   |
