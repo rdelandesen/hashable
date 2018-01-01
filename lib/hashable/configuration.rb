@@ -2,7 +2,8 @@ require 'hashids'
 
 module Hashable
   class Configuration
-    attr_accessor :attr, :source, :min_length, :alphabet, :salt, :callback, :model
+    attr_accessor :attr, :source, :model
+    attr_reader :salt, :alphabet, :min_length, :callback
 
     def initialize(model)
       @attr   = :hash_id
